@@ -2,3 +2,6 @@
 
 /// Batumi.
 pub struct Batumi;
+
+/// Version.
+pub const VERSION: u8 = 1;
