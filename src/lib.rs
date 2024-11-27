@@ -4,4 +4,4 @@
 pub struct Batumi;
 
 /// Version.
-pub const VERSION: u8 = 1;
+pub const VERSION: u8 = 2;
