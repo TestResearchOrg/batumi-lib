@@ -1,0 +1,16 @@
+name: GitHub Test Patches
+
+on: [push]
+
+jobs:
+  apply-patches:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Run ls
+        run: ls
+
+      - name: Apply patches
+        run: ./test.sh
